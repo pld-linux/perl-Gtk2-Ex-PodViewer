@@ -9,7 +9,7 @@ Summary:	A Gtk2 widget for displaying Plain old Documentation (POD)
 Summary(pl):	Widget Gtk2 do wy¶wietlania plików POD (Plain old Documentation)
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.13
-Release:	0.1
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -17,6 +17,7 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 # Source0-md5:	b5a381c24368883899ab8c41cdf1ed2b
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+Requires:	perl-Gtk2 >= 1.101-2
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
