@@ -6,7 +6,7 @@
 %define		pdir	Gtk2
 %define		pnam	Ex-PodViewer
 Summary:	A Gtk2 widget for displaying Plain old Documentation (POD)
-Summary(pl):	Widget Gtk2 do wy¶wietlania plików POD (Plain old Documentation)
+Summary(pl.UTF-8):   Widget Gtk2 do wyÅ›wietlania plikÃ³w POD (Plain old Documentation)
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.14
 Release:	1
@@ -24,8 +24,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A Gtk2 widget for displaying Plain old Documentation (POD).
 
-%description -l pl
-Widget Gtk2 do wy¶wietlania plików POD (Plain old Documentation).
+%description -l pl.UTF-8
+Widget Gtk2 do wyÅ›wietlania plikÃ³w POD (Plain old Documentation).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
