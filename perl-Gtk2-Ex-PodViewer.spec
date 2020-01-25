@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Gtk2
 %define		pnam	Ex-PodViewer
 Summary:	A Gtk2 widget for displaying Plain old Documentation (POD)
